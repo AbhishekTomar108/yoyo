@@ -13,6 +13,8 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		6F423414FEE34173B8F8FE23 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA3B055A8A418390809323 /* BootSplash.storyboard */; };
 		52138820FCA04A2588D74514 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069A93BF84C94273BD01962C /* Colors.xcassets */; };
+		9A33F49696B54CCFBF60C349 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D33C6D8CC94D01AF524139 /* BootSplash.storyboard */; };
+		468CCCAA60644FAC8C6BC630 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51DE0AE97C847D6BA0E48E8 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		0FBA3B055A8A418390809323 /* BootSplash.storyboard */ = {isa = PBXFileReference; name = "BootSplash.storyboard"; path = "myproject/BootSplash.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		069A93BF84C94273BD01962C /* Colors.xcassets */ = {isa = PBXFileReference; name = "Colors.xcassets"; path = "myproject/Colors.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
+		52D33C6D8CC94D01AF524139 /* BootSplash.storyboard */ = {isa = PBXFileReference; name = "BootSplash.storyboard"; path = "sbi/BootSplash.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C51DE0AE97C847D6BA0E48E8 /* Colors.xcassets */ = {isa = PBXFileReference; name = "Colors.xcassets"; path = "sbi/Colors.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				52D33C6D8CC94D01AF524139 /* BootSplash.storyboard */,
+				C51DE0AE97C847D6BA0E48E8 /* Colors.xcassets */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -193,6 +199,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				6F423414FEE34173B8F8FE23 /* BootSplash.storyboard in Resources */,
 				52138820FCA04A2588D74514 /* Colors.xcassets in Resources */,
+				9A33F49696B54CCFBF60C349 /* BootSplash.storyboard in Resources */,
+				468CCCAA60644FAC8C6BC630 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

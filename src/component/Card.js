@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity } from 'react-native';
 import styles from '../style/styles';
-import cardImage from '../image/newsletter-cover.png';
+import cardImage from '../image/newsletter-coverr.png';
 
 const Card = ({ navigation }) => {
   return (

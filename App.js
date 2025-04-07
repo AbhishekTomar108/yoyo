@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from './src/component/Home';
 import Form from './src/component/Form';
 import BootSplash from "react-native-bootsplash";
+import FirstPage from './src/component/FirstPage';
 
 const Stack = createStackNavigator();
 
@@ -33,6 +34,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+        <Stack.Screen name="First" component={FirstPage} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Form" component={Form} />
       </Stack.Navigator>

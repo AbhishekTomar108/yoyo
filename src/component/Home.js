@@ -9,6 +9,7 @@ const Home = ({ navigation }) => {
     <View style={styles.container}>
       {/* Fixed Banner at the top */}
       <Banner />
+     
 
       {/* Scrollable area starts here */}
       <ScrollView contentContainerStyle={styles.scrollArea}>
